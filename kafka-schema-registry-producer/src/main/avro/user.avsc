@@ -1,0 +1,12 @@
+// namespace = пакет где будет лежать
+// https://avro.apache.org/docs/1.11.1/specification/
+{"namespace": "org.gulash.kfk.model",
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "email", "type": ["string", "null"]},
+    {"name": "favorite_number",  "type": ["int", "null"]},
+    {"name": "favorite_color", "type": ["string", "null"]}
+  ]
+}

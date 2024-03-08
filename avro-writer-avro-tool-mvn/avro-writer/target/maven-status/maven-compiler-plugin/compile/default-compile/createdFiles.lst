@@ -1,0 +1,7 @@
+ru/otus/writer/Course.class
+ru/otus/writer/SchemaGenerator.class
+ru/otus/model2/User.class
+ru/otus/model2/User$Builder.class
+ru/otus/model/User.class
+ru/otus/model/User$Builder.class
+ru/otus/writer/Writer.class

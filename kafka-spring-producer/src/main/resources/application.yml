@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: kafka-spring
+
+  kafka:
+    bootstrap-servers: ${kafka_bootstrap_servers:localhost:9092}
+    producer:
+      client-id: example
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      retries: 5
